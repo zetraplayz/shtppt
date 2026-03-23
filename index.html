@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Story — Beyond What You See | A. Mushi Dharun</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Grain Overlay -->
+  <div class="grain-overlay"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">A.M.D</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#interests" class="nav-link">Interests</a></li>
+      <li><a href="#facts" class="nav-link">Unknown</a></li>
+      <li><a href="#swot" class="nav-link">SWOT</a></li>
+      <li><a href="#future" class="nav-link">Future</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="section home-section">
+    <div class="paper-texture"></div>
+    <div class="dust-particles" id="dustParticles"></div>
+    <div class="home-content">
+      <div class="home-ornament top-ornament">✦ ── ── ──</div>
+      <p class="home-eyebrow reveal-text">By A. Mushi Dharun</p>
+      <h1 class="home-title reveal-text">
+        <span class="line-1">My Story</span>
+        <span class="line-2 italic-serif">Beyond What</span>
+        <span class="line-3 italic-serif">You See</span>
+      </h1>
+      <p class="home-subtitle reveal-text">A journey of code, growth, and vision</p>
+      <div class="home-ornament bottom-ornament">── ── ── ✦</div>
+      <a href="#about" class="start-btn reveal-text">
+        <span class="btn-text">Begin the Journey</span>
+        <span class="btn-arrow">↓</span>
+      </a>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ME ===== -->
+  <section id="about" class="section about-section">
+    <div class="paper-texture"></div>
+    <div class="section-header">
+      <div class="chapter-label">Chapter I</div>
+      <h2 class="section-title">Who Am I?</h2>
+      <div class="title-divider">── ✦ ──</div>
+    </div>
+    <div class="about-grid">
+      <div class="about-card vintage-card reveal-up">
+        <div class="vintage-frame">
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="about-icon-art">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="sketch-svg">
+              <!-- Child figure sketch -->
+              <circle cx="60" cy="30" r="18" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+              <line x1="60" y1="48" x2="60" y2="80" stroke="#1a1a1a" stroke-width="1.5"/>
+              <line x1="60" y1="58" x2="40" y2="72" stroke="#1a1a1a" stroke-width="1.5"/>
+              <line x1="60" y1="58" x2="80" y2="72" stroke="#1a1a1a" stroke-width="1.5"/>
+              <line x1="60" y1="80" x2="45" y2="105" stroke="#1a1a1a" stroke-width="1.5"/>
+              <line x1="60" y1="80" x2="75" y2="105" stroke="#1a1a1a" stroke-width="1.5"/>
+              <!-- Stars around -->
+              <text x="15" y="25" font-size="10" fill="#1a1a1a">✦</text>
+              <text x="95" y="25" font-size="10" fill="#1a1a1a">✦</text>
+              <text x="10" y="60" font-size="8" fill="#555">·</text>
+              <text x="105" y="60" font-size="8" fill="#555">·</text>
+            </svg>
+          </div>
+          <h3 class="card-title">Childhood</h3>
+          <p class="card-text">Born with curiosity and wonder, every childhood moment shaped who I am today — a dreamer who turned imagination into ambition.</p>
+        </div>
+      </div>
+
+      <div class="about-card vintage-card reveal-up" style="animation-delay:0.15s">
+        <div class="vintage-frame">
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="about-icon-art">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="sketch-svg">
+              <!-- Family sketch -->
+              <!-- Father -->
+              <circle cx="60" cy="22" r="10" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="60" y1="32" x2="60" y2="55" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="60" y1="40" x2="45" y2="52" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="60" y1="40" x2="75" y2="52" stroke="#1a1a1a" stroke-width="1.2"/>
+              <!-- Mother -->
+              <circle cx="35" cy="28" r="9" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="35" y1="37" x2="35" y2="60" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="35" y1="45" x2="22" y2="55" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="35" y1="45" x2="48" y2="55" stroke="#1a1a1a" stroke-width="1.2"/>
+              <!-- 3 children -->
+              <circle cx="25" cy="72" r="7" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <circle cx="60" cy="72" r="7" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <circle cx="93" cy="72" r="7" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="25" y1="79" x2="25" y2="100" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="60" y1="79" x2="60" y2="100" stroke="#1a1a1a" stroke-width="1.2"/>
+              <line x1="93" y1="79" x2="93" y2="100" stroke="#1a1a1a" stroke-width="1.2"/>
+              <!-- Hearts -->
+              <text x="50" y="15" font-size="8" fill="#555">♡</text>
+              <text x="68" y="15" font-size="8" fill="#555">♡</text>
+            </svg>
+          </div>
+          <h3 class="card-title">Family</h3>
+          <p class="card-text">Rooted in a loving family — father, mother, and two brothers. They are my foundation, my strength, and my first teachers in life.</p>
+        </div>
+      </div>
+
+      <div class="about-card vintage-card reveal-up" style="animation-delay:0.3s">
+        <div class="vintage-frame">
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="about-icon-art">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="sketch-svg">
+              <!-- Sivakasi - firecracker city -->
+              <rect x="15" y="55" width="20" height="35" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <polygon points="15,55 25,38 35,55" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <rect x="45" y="45" width="25" height="45" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <polygon points="45,45 57,25 70,45" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <rect x="80" y="60" width="18" height="30" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <polygon points="80,60 89,47 98,60" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <!-- Ground -->
+              <line x1="5" y1="90" x2="115" y2="90" stroke="#1a1a1a" stroke-width="1.5"/>
+              <!-- Firecracker sparks -->
+              <text x="8" y="30" font-size="9" fill="#1a1a1a">✦</text>
+              <text x="100" y="35" font-size="9" fill="#1a1a1a">✦</text>
+              <text x="55" y="15" font-size="7" fill="#777">· · ·</text>
+              <!-- Sign -->
+              <rect x="30" y="96" width="60" height="18" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+              <text x="36" y="109" font-size="7" fill="#1a1a1a" font-family="serif">SIVAKASI</text>
+            </svg>
+          </div>
+          <h3 class="card-title">Hometown</h3>
+          <p class="card-text">Sivakasi — the city of firecrackers and printing. A place of craftsmen and entrepreneurs that instilled in me the value of hard work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERESTS ===== -->
+  <section id="interests" class="section interests-section">
+    <div class="paper-texture dark-paper"></div>
+    <div class="section-header light-header">
+      <div class="chapter-label">Chapter II</div>
+      <h2 class="section-title">Interests & Passions</h2>
+      <div class="title-divider">── ✦ ──</div>
+    </div>
+    <div class="interests-grid">
+
+      <div class="interest-card reveal-up">
+        <div class="interest-icon">
+          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" class="sketch-svg">
+            <rect x="10" y="20" width="60" height="40" rx="3" fill="none" stroke="#f0ede6" stroke-width="1.5"/>
+            <rect x="10" y="20" width="60" height="28" rx="3" fill="none" stroke="#f0ede6" stroke-width="1.5"/>
+            <line x1="18" y1="30" x2="35" y2="30" stroke="#f0ede6" stroke-width="1"/>
+            <line x1="18" y1="35" x2="45" y2="35" stroke="#f0ede6" stroke-width="1"/>
+            <line x1="18" y1="40" x2="30" y2="40" stroke="#f0ede6" stroke-width="1"/>
+            <text x="42" y="42" font-size="11" fill="#f0ede6">{ }</text>
+            <line x1="30" y1="60" x2="50" y2="60" stroke="#f0ede6" stroke-width="1.5"/>
+            <rect x="20" y="60" width="40" height="5" rx="1" fill="none" stroke="#f0ede6" stroke-width="1"/>
+          </svg>
+        </div>
+        <h3 class="interest-title">Coding</h3>
+        <p class="interest-desc">Turning logic into living things — every line of code is a brushstroke on a digital canvas.</p>
+      </div>
+
+      <div class="interest-card reveal-up" style="animation-delay:0.1s">
+        <div class="interest-icon">
+          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" class="sketch-svg">
+            <rect x="8" y="15" width="64" height="40" rx="4" fill="none" stroke="#f0ede6" stroke-width="1.5"/>
+            <rect x="25" y="55" width="30" height="8" fill="none" stroke="#f0ede6" stroke-width="1.2"/>
+            <line x1="15" y1="63" x2="65" y2="63" stroke="#f0ede6" stroke-width="1.5"/>
+            <circle cx="30" cy="35" r="8" fill="none" stroke="#f0ede6" stroke-width="1.2"/>
+            <circle cx="50" cy="35" r="8" fill="none" stroke="#f0ede6" stroke-width="1.2"/>
+            <line x1="38" y1="35" x2="42" y2="35" stroke="#f0ede6" stroke-width="1"/>
+            <text x="27" y="38" font-size="7" fill="#f0ede6">▶</text>
+            <text x="47" y="38" font-size="7" fill="#f0ede6">▶</text>
+          </svg>
+        </div>
+        <h3 class="interest-title">Gaming</h3>
+        <p class="interest-desc">Where strategy meets reflex — gaming sharpens the mind and fuels the competitive spirit within.</p>
+      </div>
+
+      <div class="interest-card reveal-up" style="animation-delay:0.2s">
+        <div class="interest-icon">
+          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" class="sketch-svg">
+            <circle cx="40" cy="40" r="28" fill="none" stroke="#f0ede6" stroke-width="1.5"/>
+            <circle cx="40" cy="40" r="18" fill="none" stroke="#f0ede6" stroke-width="1.2"/>
+            <circle cx="28" cy="42" r="4" fill="none" stroke="#f0ede6" stroke-width="1"/>
+            <circle cx="52" cy="42" r="4" fill="none" stroke="#f0ede6" stroke-width="1"/>
+            <line x1="32" y1="40" x2="48" y2="40" stroke="#f0ede6" stroke-width="1"/>
+            <circle cx="40" cy="25" r="2" fill="#f0ede6"/>
+            <text x="36" y="60" font-size="8" fill="#f0ede6">♫</text>
+          </svg>
+        </div>
+        <h3 class="interest-title">Discord</h3>
+        <p class="interest-desc">Community builder at heart — connecting minds, building friendships across digital frontiers.</p>
+      </div>
+
+      <div class="interest-card reveal-up" style="animation-delay:0.3s">
+        <div class="interest-icon">
+          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" class="sketch-svg">
+            <rect x="10" y="18" width="60" height="44" rx="3" fill="none" stroke="#f0ede6" stroke-width="1.5"/>
+            <circle cx="40" cy="40" r="14" fill="none" stroke="#f0ede6" stroke-width="1.2"/>
+            <polygon points="35,33 35,47 52,40" fill="none" stroke="#f0ede6" stroke-width="1.2"/>
+            <line x1="12" y1="24" x2="68" y2="24" stroke="#f0ede6" stroke-width="0.8"/>
+            <circle cx="20" cy="21" r="2" fill="none" stroke="#f0ede6" stroke-width="0.8"/>
+            <circle cx="28" cy="21" r="2" fill="none" stroke="#f0ede6" stroke-width="0.8"/>
+          </svg>
+        </div>
+        <h3 class="interest-title">Movies</h3>
+        <p class="interest-desc">Stories in motion — films that challenge perspective and inspire a deeper understanding of the human experience.</p>
+      </div>
+
+      <div class="interest-card reveal-up" style="animation-delay:0.4s">
+        <div class="interest-icon">
+          <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" class="sketch-svg">
+            <!-- Shawarma / wrap food sketch -->
+            <ellipse cx="40" cy="50" rx="28" ry="12" fill="none" stroke="#f0ede6" stroke-width="1.5"/>
+            <path d="M12,50 Q15,30 40,28 Q65,30 68,50" fill="none" stroke="#f0ede6" stroke-width="1.5"/>
+            <path d="M20,46 Q25,38 40,37 Q55,38 60,46" fill="none" stroke="#f0ede6" stroke-width="1"/>
+            <line x1="30" y1="40" x2="50" y2="40" stroke="#f0ede6" stroke-width="0.8"/>
+            <line x1="28" y1="44" x2="52" y2="44" stroke="#f0ede6" stroke-width="0.8"/>
+            <text x="35" y="20" font-size="10" fill="#f0ede6">♨</text>
+          </svg>
+        </div>
+        <h3 class="interest-title">Food</h3>
+        <p class="interest-desc">Life is seasoned with flavors — a lover of good food, especially when shared with great company.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== UNKNOWN FACTS ===== -->
+  <section id="facts" class="section facts-section">
+    <div class="paper-texture"></div>
+    <div class="section-header">
+      <div class="chapter-label">Chapter III</div>
+      <h2 class="section-title">Unknown Facts</h2>
+      <div class="title-divider">── ✦ ──</div>
+      <p class="section-subtitle">The side of me the world rarely sees</p>
+    </div>
+    <div class="facts-grid">
+
+      <div class="fact-card reveal-up">
+        <div class="fact-number">01</div>
+        <div class="fact-icon">
+          <svg viewBox="0 0 60 60" class="sketch-svg">
+            <polygon points="30,5 35,20 50,20 38,30 43,45 30,36 17,45 22,30 10,20 25,20" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+            <text x="26" y="34" font-size="10" fill="#1a1a1a">✦</text>
+          </svg>
+        </div>
+        <h3 class="fact-label">Hidden Talents</h3>
+        <p class="fact-text">Beneath the surface lies a creative mind that solves complex puzzles, builds systems, and crafts digital art with code.</p>
+      </div>
+
+      <div class="fact-card reveal-up" style="animation-delay:0.1s">
+        <div class="fact-number">02</div>
+        <div class="fact-icon">
+          <svg viewBox="0 0 60 60" class="sketch-svg">
+            <circle cx="30" cy="25" r="15" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+            <path d="M22,22 Q25,18 30,22 Q35,26 38,22" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+            <ellipse cx="24" cy="21" rx="3" ry="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+            <ellipse cx="36" cy="21" rx="3" ry="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+            <path d="M25,28 Q30,33 35,28" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+            <line x1="30" y1="40" x2="30" y2="52" stroke="#1a1a1a" stroke-width="1"/>
+            <line x1="24" y1="46" x2="36" y2="46" stroke="#1a1a1a" stroke-width="1"/>
+          </svg>
+        </div>
+        <h3 class="fact-label">Funny Things</h3>
+        <p class="fact-text">I talk to my code when it breaks. I apologize to it. Sometimes I even threaten it. The results are… mixed.</p>
+      </div>
+
+      <div class="fact-card reveal-up" style="animation-delay:0.2s">
+        <div class="fact-number">03</div>
+        <div class="fact-icon">
+          <svg viewBox="0 0 60 60" class="sketch-svg">
+            <circle cx="30" cy="22" r="14" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="3,2"/>
+            <text x="23" y="27" font-size="14" fill="#1a1a1a">?</text>
+            <path d="M20,38 Q10,48 15,58" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+            <path d="M40,38 Q50,48 45,58" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+            <line x1="22" y1="58" x2="38" y2="58" stroke="#1a1a1a" stroke-width="1"/>
+          </svg>
+        </div>
+        <h3 class="fact-label">Fears</h3>
+        <p class="fact-text">Not failure itself — but the fear of never trying. The unknown path is daunting, yet I walk it anyway.</p>
+      </div>
+
+      <div class="fact-card reveal-up" style="animation-delay:0.3s">
+        <div class="fact-number">04</div>
+        <div class="fact-icon">
+          <svg viewBox="0 0 60 60" class="sketch-svg">
+            <polygon points="30,8 34,20 47,20 37,28 41,40 30,33 19,40 23,28 13,20 26,20" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+            <text x="27" y="55" font-size="8" fill="#1a1a1a">ACHIEVED</text>
+          </svg>
+        </div>
+        <h3 class="fact-label">Achievements</h3>
+        <p class="fact-text">Self-taught coder, presenter, and problem-solver. Every certificate earned represents a battle won with patience and persistence.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SWOT ===== -->
+  <section id="swot" class="section swot-section">
+    <div class="paper-texture dark-paper"></div>
+    <div class="section-header light-header">
+      <div class="chapter-label">Chapter IV</div>
+      <h2 class="section-title">My Challenges & Strengths</h2>
+      <div class="title-divider">── ✦ ──</div>
+      <p class="section-subtitle light-sub">A candid SWOT analysis</p>
+    </div>
+    <div class="swot-grid">
+
+      <div class="swot-card swot-strengths reveal-up">
+        <div class="swot-header">
+          <div class="swot-badge">S</div>
+          <h3>Strengths</h3>
+        </div>
+        <div class="swot-icons">
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <rect x="5" y="10" width="30" height="22" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <line x1="8" y1="16" x2="20" y2="16" stroke="currentColor" stroke-width="0.8"/>
+              <line x1="8" y1="19" x2="25" y2="19" stroke="currentColor" stroke-width="0.8"/>
+              <text x="22" y="24" font-size="7" fill="currentColor">{ }</text>
+            </svg>
+            <span>Coding</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <circle cx="20" cy="20" r="14" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <path d="M14,18 L20,13 L26,18" fill="none" stroke="currentColor" stroke-width="1"/>
+              <line x1="20" y1="13" x2="20" y2="28" stroke="currentColor" stroke-width="1"/>
+              <line x1="14" y1="22" x2="26" y2="22" stroke="currentColor" stroke-width="0.8"/>
+            </svg>
+            <span>Logic</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <!-- Robot -->
+              <rect x="12" y="12" width="16" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <circle cx="17" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <circle cx="23" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <line x1="16" y1="21" x2="24" y2="21" stroke="currentColor" stroke-width="0.8"/>
+              <rect x="8" y="26" width="24" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="1"/>
+              <line x1="20" y1="12" x2="20" y2="8" stroke="currentColor" stroke-width="1"/>
+              <circle cx="20" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="0.8"/>
+            </svg>
+            <span>AI / ML</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <polyline points="5,28 12,18 18,22 25,10 35,15" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <polyline points="30,10 35,10 35,15" fill="none" stroke="currentColor" stroke-width="1.2"/>
+            </svg>
+            <span>Growth</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="swot-card swot-weaknesses reveal-up" style="animation-delay:0.15s">
+        <div class="swot-header">
+          <div class="swot-badge">W</div>
+          <h3>Weaknesses</h3>
+        </div>
+        <div class="swot-icons">
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <ellipse cx="20" cy="20" rx="14" ry="12" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <path d="M14,16 Q16,12 20,14 Q24,12 26,16" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2,1"/>
+              <circle cx="15" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <circle cx="25" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <line x1="12" y1="14" x2="8" y2="10" stroke="currentColor" stroke-width="0.8"/>
+              <line x1="28" y1="14" x2="32" y2="10" stroke="currentColor" stroke-width="0.8"/>
+            </svg>
+            <span>Overthinking</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <circle cx="20" cy="14" r="8" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <line x1="20" y1="22" x2="20" y2="32" stroke="currentColor" stroke-width="1.2"/>
+              <line x1="15" y1="26" x2="25" y2="26" stroke="currentColor" stroke-width="1"/>
+              <path d="M14,34 L20,32 L26,34" fill="none" stroke="currentColor" stroke-width="1"/>
+              <text x="17" y="17" font-size="7" fill="currentColor">?</text>
+            </svg>
+            <span>Indecision</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <circle cx="20" cy="20" r="14" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <circle cx="20" cy="20" r="10" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <circle cx="20" cy="20" r="5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <line x1="30" y1="10" x2="38" y2="5" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="36" y1="5" x2="38" y2="8" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="38" y1="5" x2="35" y2="7" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            <span>Distraction</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="swot-card swot-opportunities reveal-up" style="animation-delay:0.3s">
+        <div class="swot-header">
+          <div class="swot-badge">O</div>
+          <h3>Opportunities</h3>
+        </div>
+        <div class="swot-icons">
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <line x1="10" y1="30" x2="30" y2="10" stroke="currentColor" stroke-width="1.5"/>
+              <polyline points="20,10 30,10 30,20" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            <span>Growth</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <circle cx="20" cy="20" r="6" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <line x1="20" y1="5" x2="20" y2="13" stroke="currentColor" stroke-width="1"/>
+              <line x1="20" y1="27" x2="20" y2="35" stroke="currentColor" stroke-width="1"/>
+              <line x1="5" y1="20" x2="13" y2="20" stroke="currentColor" stroke-width="1"/>
+              <line x1="27" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1"/>
+              <line x1="9" y1="9" x2="15" y2="15" stroke="currentColor" stroke-width="0.8"/>
+              <line x1="25" y1="25" x2="31" y2="31" stroke="currentColor" stroke-width="0.8"/>
+              <line x1="31" y1="9" x2="25" y2="15" stroke="currentColor" stroke-width="0.8"/>
+              <line x1="15" y1="25" x2="9" y2="31" stroke="currentColor" stroke-width="0.8"/>
+            </svg>
+            <span>Innovation</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <!-- Rocket -->
+              <path d="M20,5 Q28,10 28,22 L20,35 L12,22 Q12,10 20,5Z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <circle cx="20" cy="18" r="4" fill="none" stroke="currentColor" stroke-width="1"/>
+              <path d="M12,28 L8,35 L16,32Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+              <path d="M28,28 L32,35 L24,32Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+            </svg>
+            <span>Launch</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <polygon points="20,8 22,14 28,14 24,18 26,24 20,20 14,24 16,18 12,14 18,14" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <text x="17" y="35" font-size="7" fill="currentColor">IDEAS</text>
+            </svg>
+            <span>Ideas</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="swot-card swot-threats reveal-up" style="animation-delay:0.45s">
+        <div class="swot-header">
+          <div class="swot-badge">T</div>
+          <h3>Threats</h3>
+        </div>
+        <div class="swot-icons">
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <path d="M20,8 Q26,14 26,20 Q22,18 20,22 Q18,18 14,20 Q14,14 20,8Z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <path d="M17,22 Q16,28 20,30 Q24,28 23,22" fill="none" stroke="currentColor" stroke-width="1"/>
+              <line x1="18" y1="24" x2="22" y2="24" stroke="currentColor" stroke-width="0.8" stroke-dasharray="1,1"/>
+            </svg>
+            <span>Heartbreak</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <circle cx="20" cy="20" r="14" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <line x1="20" y1="8" x2="20" y2="20" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="20" y1="20" x2="28" y2="25" stroke="currentColor" stroke-width="1.2"/>
+              <circle cx="20" cy="20" r="2" fill="currentColor"/>
+            </svg>
+            <span>Time</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <path d="M20,5 C10,8 8,18 10,24 C12,30 18,35 20,35 C22,35 28,30 30,24 C32,18 30,8 20,5Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2,1"/>
+              <circle cx="20" cy="20" r="3" fill="none" stroke="currentColor" stroke-width="1"/>
+            </svg>
+            <span>Uncertainty</span>
+          </div>
+          <div class="swot-item">
+            <svg viewBox="0 0 40 40" class="sketch-svg swot-svg">
+              <path d="M8,20 Q14,14 20,20 Q26,26 32,20" fill="none" stroke="currentColor" stroke-width="1.2"/>
+              <path d="M10,15 Q16,9 22,15 Q28,21 34,15" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.6"/>
+            </svg>
+            <span>Change</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FUTURE STORY ===== -->
+  <section id="future" class="section future-section">
+    <div class="paper-texture"></div>
+    <div class="section-header">
+      <div class="chapter-label">Chapter V</div>
+      <h2 class="section-title">My Future Story</h2>
+      <div class="title-divider">── ✦ ──</div>
+      <p class="section-subtitle">The chapters yet to be written</p>
+    </div>
+
+    <div class="future-grid">
+
+      <div class="future-card reveal-up">
+        <div class="future-card-inner">
+          <div class="future-icon-wrap">
+            <svg viewBox="0 0 80 80" class="sketch-svg future-sketch">
+              <polygon points="40,8 46,28 67,28 51,40 57,60 40,48 23,60 29,40 13,28 34,28" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+              <text x="33" y="37" font-size="10" fill="#1a1a1a">{ }</text>
+            </svg>
+          </div>
+          <div class="future-banner">Destinations</div>
+          <p class="future-text">Become a successful developer who builds impactful systems, collaborates globally, and leads with technical excellence.</p>
+          <div class="future-tag">Success Ahead →</div>
+        </div>
+      </div>
+
+      <div class="future-card reveal-up" style="animation-delay:0.15s">
+        <div class="future-card-inner">
+          <div class="future-icon-wrap">
+            <svg viewBox="0 0 80 80" class="sketch-svg future-sketch">
+              <rect x="15" y="20" width="50" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+              <line x1="15" y1="30" x2="65" y2="30" stroke="#1a1a1a" stroke-width="0.8"/>
+              <line x1="22" y1="38" x2="58" y2="38" stroke="#1a1a1a" stroke-width="1"/>
+              <line x1="22" y1="44" x2="45" y2="44" stroke="#1a1a1a" stroke-width="1"/>
+              <text x="20" y="28" font-size="7" fill="#1a1a1a">GOALS.txt</text>
+              <circle cx="55" cy="55" r="10" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+              <line x1="49" y1="55" x2="54" y2="60" stroke="#1a1a1a" stroke-width="1.5"/>
+              <line x1="54" y1="60" x2="62" y2="50" stroke="#1a1a1a" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="future-banner">Goals</div>
+          <p class="future-text">Master every technology that matters — from full-stack to AI/ML, cloud to systems design. Learn it all, build it all.</p>
+          <div class="future-tag">Learn Everything →</div>
+        </div>
+      </div>
+
+      <div class="future-card reveal-up" style="animation-delay:0.3s">
+        <div class="future-card-inner">
+          <div class="future-icon-wrap">
+            <svg viewBox="0 0 80 80" class="sketch-svg future-sketch">
+              <!-- Jarvis / Iron Man style robot head -->
+              <rect x="22" y="18" width="36" height="32" rx="6" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+              <rect x="28" y="25" width="8" height="5" rx="1" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+              <rect x="44" y="25" width="8" height="5" rx="1" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+              <path d="M30,38 Q40,44 50,38" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+              <line x1="40" y1="18" x2="40" y2="12" stroke="#1a1a1a" stroke-width="1.5"/>
+              <circle cx="40" cy="10" r="4" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <rect x="28" y="50" width="24" height="14" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+              <circle cx="40" cy="57" r="4" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+              <!-- Energy lines -->
+              <line x1="10" y1="35" x2="22" y2="35" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="2,1"/>
+              <line x1="58" y1="35" x2="70" y2="35" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="2,1"/>
+              <text x="35" y="73" font-size="7" fill="#1a1a1a">J.A.R.V.I.S</text>
+            </svg>
+          </div>
+          <div class="future-banner">Dream</div>
+          <p class="future-text">Build a Jarvis-like AI assistant — an intelligent system that thinks, learns, and adapts. A mind in silicon, built by my hands.</p>
+          <div class="future-tag">Build AI →</div>
+        </div>
+      </div>
+
+      <div class="future-card reveal-up" style="animation-delay:0.45s">
+        <div class="future-card-inner">
+          <div class="future-icon-wrap">
+            <svg viewBox="0 0 80 80" class="sketch-svg future-sketch">
+              <!-- Laptop + controller -->
+              <rect x="10" y="22" width="38" height="26" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.3"/>
+              <line x1="10" y1="42" x2="48" y2="42" stroke="#1a1a1a" stroke-width="0.8"/>
+              <line x1="5" y1="48" x2="53" y2="48" stroke="#1a1a1a" stroke-width="1.2"/>
+              <!-- Controller -->
+              <rect x="50" y="38" width="28" height="18" rx="5" fill="none" stroke="#1a1a1a" stroke-width="1.3"/>
+              <circle cx="58" cy="47" r="3" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+              <circle cx="70" cy="47" r="3" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+              <line x1="63" y1="43" x2="63" y2="51" stroke="#1a1a1a" stroke-width="0.8"/>
+              <line x1="59" y1="47" x2="67" y2="47" stroke="#1a1a1a" stroke-width="0.8"/>
+            </svg>
+          </div>
+          <div class="future-banner">Profession</div>
+          <p class="future-text">Developer by day, gamer by night — merging two passions into one career path where tech and play coexist beautifully.</p>
+          <div class="future-tag">Dev + Gamer →</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== THANK YOU ===== -->
+  <section id="thankyou" class="section thankyou-section">
+    <div class="paper-texture"></div>
+    <div class="thankyou-content">
+      <div class="ty-ornament">── ── ── ✦ ── ── ──</div>
+      <p class="ty-eyebrow">A. Mushi Dharun</p>
+      <h2 class="ty-title"><em>Thank You</em></h2>
+      <p class="ty-subtitle">For reading my story — the one beyond what you see.</p>
+      <div class="ty-ornament">── ── ── ✦ ── ── ──</div>
+      <div class="ty-birds">
+        <svg viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg" class="birds-svg">
+          <!-- Birds flying away -->
+          <path d="M20,50 Q25,44 30,50" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+          <path d="M38,42 Q44,36 50,42" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+          <path d="M60,35 Q66,29 72,35" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+          <path d="M80,28 Q87,21 94,28" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+          <path d="M102,22 Q109,15 116,22" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+          <path d="M125,17 Q133,10 141,17" fill="none" stroke="#1a1a1a" stroke-width="0.9"/>
+          <path d="M150,13 Q158,7 166,13" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+          <path d="M175,10 Q182,5 189,10" fill="none" stroke="#1a1a1a" stroke-width="0.7"/>
+          <path d="M198,8 Q205,3 212,8" fill="none" stroke="#1a1a1a" stroke-width="0.6"/>
+          <path d="M220,7 Q226,3 232,7" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+          <path d="M240,6 Q245,3 250,6" fill="none" stroke="#1a1a1a" stroke-width="0.4"/>
+        </svg>
+      </div>
+      <a href="#home" class="back-top-btn">↑ Return to the Beginning</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
